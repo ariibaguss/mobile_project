@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">mulaimaneh</string>
+    <string name="title_home">Home</string>
+    <string name="title_profil">Profil</string>
+    <string name="favorite_page">Favorite</string>
+    <string name="name">Nama</string>
+    <string name="avatar">Avatar</string>
+    <string name="email">email</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="detail">Detail</string>
+
+    <string name="title_menu_1">Pengenalan Aplikasi</string>
+    <string name="title_menu_2">Tentang Kami</string>
+    <string name="title_menu_3">Fitur Aplikasi</string>
+    <string name="title_menu_4">Mulai menggunakan Aplikasi</string>
+    <string name="desc_menu_1">Selamat datang di Aplikaasi Kami.</string>
+    <string name="desc_menu_2">Kami adalah tim yang berdedikasi untuk menciptakan pengalaman terbaik untuk anda.</string>
+    <string name="desc_menu_3">Aplikasi kami dilengkapi dengan berbagai fitur hebat. Mari kita lihat beberapa di antaranya.</string>
+    <string name="desc_menu_4">Sekarang saatnya untuk mulai menggunakan aplikasi kami.</string>
+    <string name="gambar_kurikulum_global">Gambar kurikulum Global</string>
+    <string name="learn_now">MULAI</string>
+    <string name="gambar_belajar_fleksibel">Gambar belajar fleksibel</string>
+    <string name="gambar_code_reviewer">Gambar code reviewer</string>
+    <string name="gambar_alumni_terpercaya">Gambar alumni terpercaya</string>
+    <string name="gambar_dicoding">Gambar dicoding</string>
+</resources>

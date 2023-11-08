@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "372635756488",
+    "firebase_url": "https://mobile-app-2aa95-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mobile-app-2aa95",
+    "storage_bucket": "mobile-app-2aa95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372635756488:android:3a4201a407d92319e7c2fd",
+        "android_client_info": {
+          "package_name": "com.example.mulaimaneh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApNaWPzixoNJzE-Pd6jcIRewN9QDTydtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372635756488:android:d39f785e9c811631e7c2fd",
+        "android_client_info": {
+          "package_name": "com.example.wesfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApNaWPzixoNJzE-Pd6jcIRewN9QDTydtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

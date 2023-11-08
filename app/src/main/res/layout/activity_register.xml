@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Daftar"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLength="20"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/gith"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Github"
+        android:inputType="text"
+        android:maxLength="20"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btndftr"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_bold"
+        android:text="DAFTAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nim"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/edit_text"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/poppins_italic"
+        android:gravity="left"
+        android:hint="Nim"
+        android:inputType="text"
+        android:maxLength="50"
+        android:padding="8dp"
+        android:paddingStart="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/abu_abu"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/emil"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/email"
+        app:layout_constraintStart_toStartOf="@id/email"
+        app:srcCompat="@drawable/emil" />
+
+    <ImageView
+        android:id="@+id/username"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/user"
+        app:layout_constraintStart_toStartOf="@id/user"
+        app:srcCompat="@drawable/nama" />
+
+    <ImageView
+        android:id="@+id/passw"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/pass"
+        app:layout_constraintStart_toStartOf="@id/pass"
+        app:srcCompat="@drawable/key" />
+
+    <ImageView
+        android:id="@+id/github"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/gith"
+        app:layout_constraintStart_toStartOf="@id/gith"
+        app:srcCompat="@drawable/github" />
+
+    <ImageView
+        android:id="@+id/nime"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/nim"
+        app:layout_constraintStart_toStartOf="@id/nim"
+        app:srcCompat="@drawable/nim" />
+
+    <TextView
+        android:id="@+id/sudahpunya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="635dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Sudah punya akun ?"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.380"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="635dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Masuk"
+        android:textColor="@color/biru"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.730"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
